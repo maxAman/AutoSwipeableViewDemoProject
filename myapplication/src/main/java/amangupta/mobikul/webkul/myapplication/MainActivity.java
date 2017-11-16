@@ -22,6 +22,6 @@ public class MainActivity extends AppCompatActivity {
         mobikulAutoScrollableView.setAdapter(mCustomPagerAdapter);
         mobikulAutoScrollableView.setPageSwitchTime(3);
         mobikulAutoScrollableView.setAutoSrcollEnable(true);
-        mobikulAutoScrollableView.setEnabledPageCounter();
+        mobikulAutoScrollableView.showBullets();
     }
 }
