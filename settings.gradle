@@ -1,1 +1,1 @@
-include ':myapplication', "MobikulAutoScrollableView"
+include ':myapplication', ':MobikulAutoScrollableView-release'
