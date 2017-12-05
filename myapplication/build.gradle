@@ -4,7 +4,6 @@ android {
     compileSdkVersion 26
     buildToolsVersion "26.0.2"
 
-
     defaultConfig {
         applicationId "amangupta.mobikul.webkul.myapplication"
         minSdkVersion 25
