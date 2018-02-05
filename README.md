@@ -22,7 +22,7 @@ This is a demo project to show the MobikulAutoSrcollView library uses. MobikulAu
          compile project(':MobikulAutoScrollableView-release')
    }
 ```
-5. Voila! You have seccessfully import the library to your Project,
+5. Voila! You have seccessfully import the library to your Project.
 
 ## Implementation
 
