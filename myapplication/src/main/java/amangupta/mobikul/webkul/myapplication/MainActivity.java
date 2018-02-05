@@ -19,10 +19,13 @@ public class MainActivity extends AppCompatActivity {
         mCustomPagerAdapter = new CustomPagerAdapter(this, res);
         mobikulAutoScrollableView = findViewById(R.id.my_pager_layout);
 //        mobikulAutoScrollableView.setBackgroundColor(getColor(R.color.colorAccent));
+
+        mobikulAutoScrollableView.setAdapter(mCustomPagerAdapter);
         mobikulAutoScrollableView.showBullets();
         mobikulAutoScrollableView.setPageSwitchTime(3);
-        mobikulAutoScrollableView.setAdapter(mCustomPagerAdapter);
+        mobikulAutoScrollableView.getMyCustomViewPager();
 //        mobikulAutoScrollableView.getMyCustomViewPager();
-        mobikulAutoScrollableView.setAutoSrcollEnable(true);
+        mobikulAutoScrollableView.setAutoSrcollEnable(false);
+        mobikulAutoScrollableView.getMyCustomViewPager().autoMeasureEnabled(true);
     }
 }
