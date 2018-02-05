@@ -39,3 +39,4 @@ simply use the Below layout,
 #### enable autoMeasureEnabled ,
         mobikulAutoScrollableView.getMyCustomViewPager().autoMeasureEnabled(true);
 
+```
