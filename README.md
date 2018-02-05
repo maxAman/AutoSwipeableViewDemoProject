@@ -27,19 +27,15 @@ simply use the Below layout,
 #### like all viewpager add the adapter,
         mobikulAutoScrollableView.setAdapter(mCustomPagerAdapter);
 
-#### like all viewpager add the adapter,
-BottomNavigationItem item1 = new BottomNavigationItem("menu1", R.drawable.ic_bag);
+#### for show bullets,
+        mobikulAutoScrollableView.showBullets();
 
-BottomNavigationItem item2 = new BottomNavigationItem("menu2", R.drawable.ic_vector_home);
+#### for set page switch time programmeticaly,
+        mobikulAutoScrollableView.setPageSwitchTime(3);
 
- bottomNavigationItems.add(item1);
- bottomNavigationItems.add(item2);
+#### enable autoscrolling ,
+        mobikulAutoScrollableView.setAutoSrcollEnable(false);
 
- bottomNavigation.addItems(bottomNavigationItems);
+#### enable autoMeasureEnabled ,
+        mobikulAutoScrollableView.getMyCustomViewPager().autoMeasureEnabled(true);
 
-#### Add Notification Badge
-
-bottomNavigation.setNotification("notification no", int item posiition);
-
-bottomNavigation.setNotificationBackgroundColor(Color.RED);
-bottomNavigation.setNotificationTextColor(Color.WHITE);
