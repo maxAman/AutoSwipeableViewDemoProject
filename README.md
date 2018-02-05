@@ -28,19 +28,19 @@ simply use the Below layout,
         mobikulAutoScrollableView.setAdapter(mCustomPagerAdapter);
 ```
 #### for show bullets,
-```
+```java
         mobikulAutoScrollableView.showBullets();
  ```
 
 #### for set page switch time programmeticaly,
-```
+```java
         mobikulAutoScrollableView.setPageSwitchTime(3);
 ```
 #### enable autoscrolling ,
-```
+```java
         mobikulAutoScrollableView.setAutoSrcollEnable(false);
 ```
 #### enable autoMeasureEnabled ,
-```
+```java
          mobikulAutoScrollableView.getMyCustomViewPager().autoMeasureEnabled(true);
 ```
