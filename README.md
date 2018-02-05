@@ -9,9 +9,26 @@ This is a demo project to show the MobikulAutoSrcollView library uses. MobikulAu
 * Manage SwitchTime between pages and so on.
 
 
-## How we use
+## How to use?
 
-simply use the Below layout,
+#### Import the library,
+
+1. Download the **MobikulAutoScrollableView-release**,
+2. Right click on your Project -> Select **New** -> Select **Module** -> Select **Import .JAR/.AAR package** option,
+3. Select **MobikulAutoScrollableView-release.aar** and click **finish**,
+4. Now add following code to your app level gradle for importing this library to your project,
+``` java
+   dependencies {
+         compile project(':MobikulAutoScrollableView-release')
+   }
+```
+5. Voila! clap You have seccessfully import the library to your Project,
+
+## Implementation
+
+Simply use the Below layout,
+
+#### XML
 ``` xml
    <com.mobikul.customswipeableviewpager.MobikulAutoScrollableView
          android:id="@+id/my_pager_layout"
@@ -19,28 +36,30 @@ simply use the Below layout,
          android:layout_height="wrap_content"
          app:pageSwitchTime="3"/>
 ```
-## Activity
+#### Activity/Fragments
 ``` java
   CustomPagerAdapter mCustomPagerAdapter = new CustomPagerAdapter(this, res);
 ```
-#### like all viewpager add the adapter,
+##### Like all viewpager add the adapter,
 ``` java
         mobikulAutoScrollableView.setAdapter(mCustomPagerAdapter);
 ```
-#### for show bullets,
+##### For show bullets,
 ```java
         mobikulAutoScrollableView.showBullets();
  ```
 
-#### for set page switch time programmeticaly,
+##### For set page switch time programmeticaly,
 ```java
         mobikulAutoScrollableView.setPageSwitchTime(3);
 ```
-#### enable autoscrolling ,
+##### Enable autoscrolling ,
 ```java
         mobikulAutoScrollableView.setAutoSrcollEnable(false);
 ```
-#### enable autoMeasureEnabled ,
+##### Enable autoMeasureEnabled ,
 ```java
          mobikulAutoScrollableView.getMyCustomViewPager().autoMeasureEnabled(true);
 ```
+
+
