@@ -11,6 +11,7 @@
         android:id="@+id/my_pager_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         app:pageSwitchTime="3"/>
 
     <TextView
