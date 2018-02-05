@@ -12,20 +12,19 @@ This is a demo project to show the MobikulAutoSrcollView library uses. MobikulAu
 ## How we use
 
 simply use the Below layout,
-xml
-```
+``` xml
    <com.mobikul.customswipeableviewpager.MobikulAutoScrollableView
          android:id="@+id/my_pager_layout"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          app:pageSwitchTime="3"/>
 ```
-Activity
-```
+## Activity
+``` java
   CustomPagerAdapter mCustomPagerAdapter = new CustomPagerAdapter(this, res);
 ```
 #### like all viewpager add the adapter,
-```
+``` java
         mobikulAutoScrollableView.setAdapter(mCustomPagerAdapter);
 ```
 #### for show bullets,
@@ -42,6 +41,6 @@ Activity
         mobikulAutoScrollableView.setAutoSrcollEnable(false);
 ```
 #### enable autoMeasureEnabled ,
-```        mobikulAutoScrollableView.getMyCustomViewPager().autoMeasureEnabled(true);
 ```
+         mobikulAutoScrollableView.getMyCustomViewPager().autoMeasureEnabled(true);
 ```
