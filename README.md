@@ -39,10 +39,7 @@ Simply use the Below layout,
 #### Activity/Fragments
 ``` java
   CustomPagerAdapter mCustomPagerAdapter = new CustomPagerAdapter(this, res);
-```
-##### Like all viewpager add the adapter,
-``` java
-        mobikulAutoScrollableView.setAdapter(mCustomPagerAdapter);
+  mobikulAutoScrollableView.setAdapter(mCustomPagerAdapter);
 ```
 ##### For show bullets,
 ```java
