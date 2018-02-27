@@ -13,16 +13,14 @@ This is a demo project to show the MobikulAutoSrcollView library uses. MobikulAu
 
 #### Import the library,
 
-1. Download the **MobikulAutoScrollableView-release**,
-2. Right click on your Project -> Select **New** -> Select **Module** -> Select **Import .JAR/.AAR package** option,
-3. Select **MobikulAutoScrollableView-release.aar** and click **finish**,
-4. Now add following code to your app level gradle for importing this library to your project,
+Add below dependency to your app level gradle for importing this library to your project,
+
 ``` java
    dependencies {
-         compile project(':MobikulAutoScrollableView-release')
+             implementation 'com.mobikul.webkul:auto-scrollable-viewpager:1.0.0'
    }
 ```
-5. Voila! You have seccessfully import the library to your Project.
+Voila! You have seccessfully import the library to your Project.
 
 ## Implementation
 
