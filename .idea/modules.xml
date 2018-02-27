@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AutoSwipeableViewDemoProject.iml" filepath="$PROJECT_DIR$/AutoSwipeableViewDemoProject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MobikulAutoScrollableView-release/MobikulAutoScrollableView-release.iml" filepath="$PROJECT_DIR$/MobikulAutoScrollableView-release/MobikulAutoScrollableView-release.iml" />
       <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
     </modules>
   </component>

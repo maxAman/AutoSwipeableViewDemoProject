@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.mobikul.webkul:auto-scrollable-viewpager-1.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/auto-scrollable-viewpager-1.0.0.aar/6225e141b9517e829cd33624cd20a958/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/auto-scrollable-viewpager-1.0.0.aar/6225e141b9517e829cd33624cd20a958/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mobikul.webkul/auto-scrollable-viewpager/1.0.0/17121a34bcf6c8ee8f423ae68f924041f97f379/auto-scrollable-viewpager-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
